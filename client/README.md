@@ -1,12 +1,15 @@
-# AngPrint
+# Angular Print a page V1
 
-Based on this article
-https://medium.com/@Idan_Co/angular-print-service-290651c721f9
+This is an example of printing a page. It isn't very reusable and needs to be placed within its own module (that's what V2 will do).  Once V2 is done, I'll delete this repo.
 
-Greater control over page
-https://www.w3.org/TR/1998/REC-CSS2-19980512/page.html
+## Links
+This example is 
+1. Based on mainly on [this article](https://medium.com/@Idan_Co/angular-print-service-290651c721f9)
 
-Getting rid of URL at bottom of page
+Other helpful links.
+1. [Greater control over page](https://www.w3.org/TR/1998/REC-CSS2-19980512/page.html)
+
+## Topic: How to get rid of the URL at bottom of page
 Basically it needs to be in styles.css
 @media print {
   @page {
@@ -15,7 +18,7 @@ Basically it needs to be in styles.css
   }
 }
 
-then the footer is too high......
-https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551
+Reference
+- [The footer is too high](https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551)
 
 
