@@ -8,11 +8,6 @@ import { PrintService } from './services/print.service';
 })
 export class AppComponent {
   title = 'AngPrint';
-
   constructor(public printService: PrintService) { }
 
-  onPrintInvoice() {
-    const invoiceIds = ['101', '102'];
-    this.printService.printDocument('invoice', invoiceIds);
-  }
 }
